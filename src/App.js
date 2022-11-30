@@ -1,25 +1,18 @@
-import logo from './logo.svg';
-import './App.css';
+//import ClassComponent from './ClassComponent'
+import PropsExample from './PropsExample'
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
-}
+function App(){
 
-export default App;
+  return(
+        <section>
+          <PropsExample name="hamini" age="19"/>
+          <PropsExample name="chinni" age="19"/>
+          {/*<h1>how are u</h1>
+          <p>whats going on here</p>
+          <img src="https://wallpaperaccess.com/full/1204217.jpg" width="30%" alt="pic1"/>
+          <ClassComponent/>*/}
+        </section>
+
+      )
+  }
+  export default App;
